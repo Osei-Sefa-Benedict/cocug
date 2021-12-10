@@ -1,0 +1,7 @@
+<option value="">---------</option>
+{% for Region in Region %}
+<option value="{{ Region.pk }}">{{ Region.name }}</option>
+{% endfor %}
+{% for Ministry in Ministry %}
+<option value="{{ Ministry.pk }}">{{ Ministry.name }}</option>
+{% endfor %}
